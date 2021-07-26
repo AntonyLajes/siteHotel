@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Home | Atlantic Hotel</title>
+        <style>
+            .bodyBackground{
+                background: url(./img/login-background.jpg) no-repeat;
+                width: 100%;
+            }
+
+            .loginBox{
+                width: 340px;
+                margin: 200px auto;
+                border: 3px solid rgba(135,206,235, 0.2);
+                background: rgba(23, 189, 255, 0.1);
+                border-radius: 5%;
+                padding: 20px;
+            }
+
+            .prependSize{
+                width: 30px;
+            }
+
+            .listItemSize{
+                width: 80px;
+            }
+
+            .listItemSize2{
+                width: 30px;
+            }
+
+            .navLink{
+                text-decoration: none;
+            }
+
+            .centerAll {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .centerDiv{
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -150px;
+                margin-left: -200px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="centerAll">
+            <div class="centerDiv">
+                <form action="">
+                    <div class="mt-1">
+                        <label for="inputNome" class="col-sm-3 ml-auto mr-1">Nome: </label>
+                        <input type="text" placeholder="Digite o nome" class="col-sm-8" id="inputNome">
+                    </div>
+                    <div class="mt-1">
+                        <label for="inputCPF" class="col-sm-3 ml-auto mr-1">CPF: </label>
+                        <input type="number" placeholder="Digite o CPF" class="col-sm-8" id="inputCPF">
+                    </div>
+                    <div class="mt-1">
+                        <label for="inputEndereco" class="col-sm-3 ml-auto mr-1">Endereço: </label>
+                        <input type="text" placeholder="Digite o endereço" class="col-sm-8" id="inputEndereco">
+                    </div>
+                    <div class="mt-1">
+                        <label for="inputTelefone" class="col-sm-3 ml-auto mr-1">Telefone: </label>
+                        <input type="number" placeholder="Digite o telefone" class="col-sm-8" id="inputTelefone">
+                    </div>
+                    <div class="form-group mt-1 row">
+                        <label for="selectDoCargo" class="col-sm-3 pl-5">Cargo:</label>
+                        <select name="selectCargo" id="selectDoCargo" class="form-control col-sm-8 w-"
+                        >
+                            <option value="valor1">valor1</option>
+                            <option value="valor2">valor2</option>
+                            <option value="valor3">valor3</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="container mt-3">
+                    <nav class="navbar navbar-expand-sm">
+                        <div class="navbar-collapse row">
+                            <div>
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="text-center mr-4">
+                                        <a href="" class="navLink">
+                                            <img src="./img/novo.png" class="listItemSize2">
+                                            <h4>Novo</h4>
+                                        </a>
+                                    </li>
+                                    <li class="text-center mr-4">
+                                        <a href="" class="navLink">
+                                            <img src="./img/save.png" class="listItemSize2">
+                                            <h4>Salvar</h4>
+                                        </a>
+                                    </li>
+                                    <li class="text-center mr-4">
+                                        <a href="" class="navLink">
+                                            <img src="./img/editar.png" class="listItemSize2">
+                                            <h4>Editar</h4>
+                                        </a>
+                                    </li>
+                                    <li class="text-center mr-4">
+                                        <a href="./menu.html" class="navLink">
+                                            <img src="./img/cancelar.png" class="listItemSize2">
+                                            <h4>Cancelar</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav> 
+                </div>
+            </div>
+        </div> 
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

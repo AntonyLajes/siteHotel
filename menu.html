@@ -24,23 +24,109 @@
             .prependSize{
                 width: 30px;
             }
+
+            .listItemSize{
+                width: 80px;
+            }
+
+            .navLink{
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
         <div>
-            <nav class="navbar navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div class="navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">links</a>
+                    <ul class="navbar-nav mr-auto ml-5">
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Cadastros</a>
                             <div class="dropdown-menu">   
-                                <a href="" class="dropdown-item">Link1</a>
-                                <a href="" class="dropdown-item">Link2</a>
+                                <a href="./funcionarios.html" class="dropdown-item">Funcionarios</a>
+                                <a href="./usuarios.html" class="dropdown-item">Usuários</a>
+                                <a href="./hospedes.html" class="dropdown-item">Hospedes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Check-In/Out</a>
+                            <div class="dropdown-menu">   
+                                <a href="./check-in.html" class="dropdown-item">Check-In</a>
+                                <a href="./check-out.html" class="dropdown-item">Check-Out</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Reservas</a>
+                            <div class="dropdown-menu">   
+                                <a href="" class="dropdown-item"></a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Produtos</a>
+                            <div class="dropdown-menu">   
+                                <a href="" class="dropdown-item">Novo Produto</a>
+                                <a href="" class="dropdown-item">Estoque</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Relatórios</a>
+                            <div class="dropdown-menu">   
+                                <a href="" class="dropdown-item"></a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-1">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Sair</a>
+                            <div class="dropdown-menu">   
+                                <a href="" class="dropdown-item">Logout</a>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </nav> 
+            </nav>
+            <div class="container mt-3">
+                <nav class="navbar navbar-expand-sm">
+                    <div class="navbar-collapse row">
+                        <div class="col-sm-10">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="text-center mr-4">
+                                    <a href="" class="navLink">
+                                        <img src="./img/produtos.png" class="listItemSize">
+                                        <h2>Produto</h2 >
+                                    </a>
+                                </li>
+                                <li class="text-center mr-4">
+                                    <a href="./check-in.html" class="navLink">
+                                        <img src="./img/check-in.png" class="listItemSize">
+                                        <h2>Check-In</h2 >
+                                    </a>
+                                </li>
+                                <li class="text-center mr-4">
+                                    <a href="" class="navLink">
+                                        <img src="./img/quarto.png" class="listItemSize">
+                                        <h2>Quartos</h2 >
+                                    </a>
+                                </li>
+                                <li class="text-center mr-4">
+                                    <a href="" class="navLink">
+                                        <img src="./img/relatorio.png" class="listItemSize">
+                                        <h2>Relatórios</h2 >
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="text-center ml-auto">
+                                    <a href="" class="navLink">
+                                        <img src="./img/logout.png" class="listItemSize">
+                                        <h2>Logout</h2 >
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> 
+            </div>
+            
         </div>
 
 
